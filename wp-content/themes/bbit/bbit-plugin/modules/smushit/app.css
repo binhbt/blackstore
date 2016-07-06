@@ -1,0 +1,26 @@
+/* smushit */
+/*.bbit-smushit-wrapper {
+	text-align: left;
+}
+.bbit-smushit-wrapper .bbit-smushit-loading {
+	background: url("assets/ajax-loader.gif") no-repeat;
+	width: 16px;
+	padding-right: 16px;
+	margin-right: 5px;
+	display: none;
+}
+
+.bbit-smushit-wrapper span.error {
+	color: red;
+}
+.bbit-smushit-wrapper span.success {
+	color: green;
+}
+.bbit-smushit-wrapper span.info {
+	color: blue;
+}
+
+.bbit-smushit-wrapper a.disabled {
+	color: grey;
+}*/
+

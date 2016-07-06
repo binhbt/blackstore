@@ -1,0 +1,57 @@
+#bbit-lightbox-container .show {
+	display: table;
+}
+#bbit-lightbox-container .hide {
+	display: none;
+}
+
+/* details */
+#bbit-lightbox-seo-report-response-details {
+	font-weight: bold;
+}
+#bbit-lightbox-seo-report-response-details table td:first-child + td {
+	font-weight: normal;
+}
+
+/* add new link form */
+.bbit-add-link-form label {
+	font-weight: bold;
+}
+.bbit-add-link-form .bbit-add-link-field {
+	padding: 6px 8px 6px 8px;
+	width: 100%; 
+}
+.bbit-add-link-form select {
+	padding: 4px 6px 4px 6px;
+	height: 28px; 
+}
+.bbit-add-link-form .bbit-button {
+	margin: 10px 0px 8px 0px;
+}
+
+.bbit-add-link-form #bbit-builder-text-hits {
+	display: none;
+}
+
+/* update link form */
+.bbit-update-link-form label {
+	font-weight: bold;
+}
+.bbit-update-link-form .bbit-add-link-field {
+	padding: 6px 8px 6px 8px;
+	width: 100%; 
+}
+.bbit-update-link-form select {
+	padding: 4px 6px 4px 6px;
+	height: 28px; 
+}
+.bbit-update-link-form .bbit-button {
+	margin: 10px 0px 8px 0px;
+}
+
+.bbit-add-link-form #new_text {
+	width: 300px;
+}
+.bbit-update-link-form #new_text2 {
+	width: 300px;
+}

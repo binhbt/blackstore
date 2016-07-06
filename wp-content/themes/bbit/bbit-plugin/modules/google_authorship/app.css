@@ -1,0 +1,14 @@
+#bbit-user-authorship .bbit-dashboard-box {
+	box-shadow: none !important;
+	background: none !important;
+	margin: 0px 0px 0px 0px;
+}
+#bbit-user-authorship .bbit-tab-container {
+	margin: 0px;
+	width: 100%;
+} 
+	#bbit-user-authorship .bbit-grid_4 {
+		margin: 0px 0px 0px 0px;
+		background: none;
+		width: 100%;
+	}

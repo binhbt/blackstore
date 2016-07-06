@@ -1,0 +1,10 @@
+#bbit-content .bbit-container .bbit-table #bbit-fe-rt-wrap,
+#bbit-content .bbit-container .bbit-table #bbit-fe-ht-wrap {
+	display: none;
+}
+	#bbit-content .bbit-container .bbit-table .bbit-fe-msg {
+		color: blue;
+	}
+	#bbit-content .bbit-container .bbit-table .bbit-fe-err {
+		color: red;
+	}

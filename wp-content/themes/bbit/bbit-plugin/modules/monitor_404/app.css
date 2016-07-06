@@ -1,0 +1,26 @@
+#bbit-lightbox-container .show {
+	display: table;
+}
+#bbit-lightbox-container .hide {
+	display: none;
+}
+
+/* update link form */
+.bbit-update-link-form label {
+	font-weight: bold;
+}
+.bbit-update-link-form .bbit-add-link-field {
+	padding: 6px 8px 6px 8px;
+	width: 100%; 
+}
+.bbit-update-link-form select {
+	padding: 4px 6px 4px 6px;
+	height: 28px; 
+}
+.bbit-update-link-form .bbit-button {
+	margin: 10px 0px 8px 0px;
+}
+
+.bbit-update-link-form #new_url_redirect2 {
+	width: 300px;
+}

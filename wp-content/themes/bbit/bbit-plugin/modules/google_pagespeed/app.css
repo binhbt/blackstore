@@ -1,0 +1,231 @@
+.bbit-sub-panel-content {
+	padding: 15px 10px 15px 10px;
+}
+#bbit-pagespeed-detail {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	background: rgba(255,255,255, 0.9); 
+	z-index: 999;
+	display: none;
+}
+	#bbit-pagespeed-detail .bbit-pagespeed-header {
+		background: #ecf0f1;
+		width: 100%; 
+    	height: 45px;
+	}
+		#bbit-pagespeed-detail .bbit-pagespeed-header .bbit-close-page-detail {
+			position: absolute;
+			right: 13px;
+   			top: 10px;
+		}
+	#bbit-pagespeed-detail .bbit-pagespeed-header .bbit-tab-item {
+		width: 260px;
+		height: 45px;
+		position: relative;
+		display: inline-block;
+		padding: 0px 10px 0px 10px;
+		border: 1px solid #CCCCCC;
+		border-top: 1px solid #CCCCCC;
+		border-bottom: none;
+		z-index: 100;
+		opacity: 0.6;
+		margin-left: -4px;
+		cursor: pointer;
+	}
+		#bbit-pagespeed-detail .bbit-pagespeed-header .bbit-tab-item:first-child {
+			margin-left: 20px;
+		}
+		#bbit-pagespeed-detail .bbit-pagespeed-header .bbit-tab-item.on {
+			background: #fff;
+			border-top: 1px solid #fff;
+			opacity: 1;
+			cursor: default;
+		}
+		#bbit-pagespeed-detail .bbit-pagespeed-header .bbit-tab-item table {
+			width: 100%;
+			margin-top: 5px;
+		}
+			#bbit-pagespeed-detail .bbit-pagespeed-header .bbit-tab-item table .bbit-tab-title {
+				font-size: 18px;
+				font-family: Arial, Helvetica, sans-serif;
+				padding-left: 5px;
+				width: 80px; 
+			}
+	#bbit-pagespeed-detail .bbit-pagespeed-page-content {
+		background: #fff;
+		margin: 0px 0.6% 0px 0.6%;
+		width: 98.6%;
+		height: 100%;
+		border: 1px solid #CCCCCC;
+		position: relative;
+		top: -1px;
+		left: 0px;
+		z-index: 10;
+	}
+		#bbit-pagespeed-detail .bbit-pagespeed-page-content .bbit-pagespeed-tab {
+			width: 100%;
+			height: 100%;
+			display: table;
+		}
+			#bbit-pagespeed-detail .bbit-pagespeed-page-content .bbit-pagespeed-tab .left {
+				display: table-cell;
+				padding: 15px 0px 0px 15px;
+				vertical-align: top;
+			}
+			#bbit-pagespeed-detail .bbit-pagespeed-page-content .bbit-pagespeed-tab .right {
+				display: table-cell;
+				width: 380px;
+				padding: 15px 15px 0px 15px;
+				vertical-align: top;
+			}
+			
+			#bbit-pagespeed-detail .bbit-pagespeed-page-content .desktop-display {
+				width: 345px;
+				height: 324px;
+				position: relative;
+				margin: 0px auto 20px auto;
+			}
+				#bbit-pagespeed-detail .bbit-pagespeed-page-content .desktop-display img {
+					margin-top: 0px;
+					margin-left: 13px;
+				}
+				#bbit-pagespeed-detail .bbit-pagespeed-page-content .desktop-display .php-the-mask {
+					width: inherit;
+					height: inherit;
+					position: absolute;
+					top: 0;
+					left: 0;
+					z-index: 10;
+					background: url("assets/desktop.png") no-repeat top left;
+				}
+				
+			#bbit-pagespeed-detail .bbit-pagespeed-page-content .mobile-display {
+				width: 172px;
+				height: 355px;
+				position: relative;
+				margin: 0px auto 20px auto;
+			}
+				#bbit-pagespeed-detail .bbit-pagespeed-page-content .mobile-display img {
+					margin-top: 50px;
+					margin-left: 10px;
+					width: 155px; 
+				}
+				#bbit-pagespeed-detail .bbit-pagespeed-page-content .mobile-display .php-the-mask {
+					width: inherit;
+					height: inherit;
+					position: absolute;
+					top: 0;
+					left: 0;
+					z-index: 10;
+					background: url("assets/mobile.png") no-repeat top left;
+				}
+	#bbit-pagespeed-detail .bbit-pagespeed-page-content .bbit-panel-title {
+		margin-right: 10px;
+	}
+	#bbit-pagespeed-detail .bbit-pagespeed-page-content .bbit-panel-title .bbit-progress {
+		width: 180px;
+		background: #fff;
+		position: absolute;
+		top: 15px;
+		right: 10px;
+	}
+	#bbit-pagespeed-detail .bbit-pagespeed-header .bbit-tab-item table .bbit-progress {
+		margin: 4px 70px 4px 4px;
+	}
+		#bbit-pagespeed-detail .bbit-pagespeed-header .bbit-tab-item table .bbit-progress .bbit-progress-score,
+		#bbit-pagespeed-detail .bbit-pagespeed-page-content .bbit-panel-title .bbit-progress .bbit-progress-score {
+			width: 56px; 
+			right: -62px;
+		}		
+	#bbit-pagespeed-detail .bbit-pagespeed-page-content .bbit-identity-box h1 {
+		margin: 0px 0px 10px 0px;
+		font-size: 16px;
+	}
+	#bbit-pagespeed-detail .bbit-pagespeed-page-content .bbit-identity-box h2 {
+		margin: 0px 0px 10px 0px;
+		font-size: 12px;
+	}
+	
+	.bbit-statistics-box .bbit-sub-panel-content {
+		padding: 0px 0px 0px 0px;
+	}
+
+	#bbit-pagespeed-detail .bbit-pagespeed-page-content .bbit-statistics-box .bbit-table {
+		border-spacing:0; 
+		border-collapse:collapse; 
+	}
+		#bbit-pagespeed-detail .bbit-pagespeed-page-content .bbit-statistics-box .bbit-table td:nth-child(2)
+		{
+			font-weight: bold;
+		}
+	
+	.bbit-report-rules .bbit-what-to-do {
+		width: 100%; 
+	}
+		.bbit-report-rules .bbit-what-to-do a.bbit-criteria {
+			display: block;
+			width: 100%;
+			padding: 5px 0px 5px 0px;
+			text-indent: 20px;
+			background: #95a5a6 url("assets/arrow_right.png") 8px 10px no-repeat;
+			color: #fff;
+			text-decoration: none;
+			font-weight: bold;
+		}
+			.bbit-report-rules .bbit-what-to-do a.bbit-criteria:hover {
+				background-color: #7f8c8d;
+			}
+			.bbit-report-rules .bbit-what-to-do a.bbit-criteria.open {
+				background-image: url("assets/arrow_down.png") !important;
+			}
+			
+			.bbit-report-rules .bbit-what-to-do .bbit-desc-summary {
+				color: #7f8c8d;
+			}
+			.bbit-report-rules .bbit-what-to-do ul {
+				margin-left: 15px;
+				color: #777777;
+			}
+				.bbit-report-rules .bbit-what-to-do .can-do li {
+					line-height: 1.2em;
+				    list-style-type: square;
+				    margin-top: 0.4em;
+			    }
+			.bbit-report-rules .bbit-desc-complete {
+				width: 100%;
+				display: none;
+				margin: 0px 0px 0px 0px;
+				position: relative;
+			}
+	
+	.bbit-report-rules td.bbit-icon-status {
+		width: 16px; 
+		padding: 0px 5px 0px 5px;
+		vertical-align: top;
+	}
+	.bbit-report-rules .bbit-table tr td.bbit-icon-status {
+		width: 16px; 
+		padding: 0px 5px 0px 5px;
+	}
+	
+
+i.bbit-status-icon {
+    background: url("assets/icon-status.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    margin: 5px auto;
+    margin-bottom: 0px;
+    width: 18px;
+}
+		i.bbit-status-icon.is_success {
+			background-position: 0px 0;
+		}
+		i.bbit-status-icon.is_error {
+			background-position: -18px 0;
+		}
+		i.bbit-status-icon.is_warning {
+			background-position: -36px 0;
+		}
